@@ -1,0 +1,33 @@
+table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #1047ae;
+}
+
+td.responsable {
+    position: relative;
+}
+
+#tooltip {
+    display: none;
+    position: absolute;
+    background-color: #1047ae;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#tooltip img {
+    max-width: 100px;
+    max-height: 100px;
+}

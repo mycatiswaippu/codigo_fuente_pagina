@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.floating-window {
+    position: fixed;
+    width: 33%;
+    height: 33%;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.floating-window img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: cover;
+}
+
+.floating-window p {
+    margin: 10px 0 0;
+    text-align: center;
+}
